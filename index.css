@@ -1,0 +1,30 @@
+body{
+	background-image: url(./bpl6.jpg);
+	background-size: cover;
+}
+.header{
+	align-items: center;
+	text-align: center;
+	margin: 3%;	
+}
+.b1{
+	height: 10%;
+	width: 20%;
+	color: white;
+	background-color: #00cc44;
+	border-radius: 10px;
+
+}
+.b1:hover{
+	background-color: #ff471a;
+
+
+}
+.b1 a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 1.2em;
+	font-family: arial;
+	text-shadow: #ffff1a 2px;
+}
