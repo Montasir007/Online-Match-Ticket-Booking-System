@@ -1,0 +1,83 @@
+html{
+	background-image: url(./sta.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: arial;
+}
+.ticket{
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,0.7);
+	height: 60%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	padding: 20px;
+	font-size: 1.3em;
+}
+.logo{
+	float: left;
+	
+}
+
+.logo img{
+	height: 48px;
+	width: 48px;
+		
+}
+.header{
+	background-color: rgba(0, 4, 7,0.9);
+	position: inline;
+	height: 48px;
+}
+.header ul{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+		
+}
+.header ul li{
+	display: inline-block;
+	text-align: center;
+	color: white;
+	margin-right: 2%;
+	padding: 10px;	
+	
+
+}
+.title{
+	font-weight: bold;
+	color: white;
+}
+.title:hover{
+	color: rgba(20, 116, 211,1);
+
+}
+.header ul li a{
+	text-align: center;
+	color: rgba(20, 116, 211,1);
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0px;}
+.header ul li a:hover{
+	color: rgba(20, 116, 211,1);
+}
+.tab{
+	padding: 10px;
+}
+.tab:hover{
+	background-color: rgba(255, 255, 255,1);
+	color: rgba(20, 116, 211,1);
+}
+.banner{
+	background-color: rgba(3, 103, 38 ,0.7);
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+}
