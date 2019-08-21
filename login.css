@@ -1,0 +1,44 @@
+html{
+	background-image: url(./sta.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container{
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,0.7);
+	height: 60%;
+	width: 25%;
+	text-align: center;
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	padding: 20px;
+	font-size: 1.3em;
+}
+
+input{
+	font-weight: bold;
+	font-size: 1.0em;
+}
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    height: 50px;
+    width: 100px;
+    background-color:lightblue;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 1.0em;
+}
+
+.button:hover {
+    background-color:#008CBA ; 
+    color: black;
+}
+.button a{
+	text-decoration: none;
+	color: black;
+}
