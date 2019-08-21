@@ -1,0 +1,102 @@
+html{
+	background-image: url(./flag.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: arial;
+
+}
+body{
+	margin: 5%;
+}
+.logo{
+	float: left;
+	
+}
+
+.logo img{
+	height: 48px;
+	width: 48px;
+		
+}
+.text-danger{
+	text-align:center;
+	
+	color:white;
+	padding: 10px;
+}
+.header{
+	background-color: rgba(0, 4, 7,0.9);
+	position: inline;
+	height: 48px;
+}
+.header ul{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+		
+}
+.header ul li{
+	display: inline-block;
+	text-align: center;
+	color: white;
+	margin-right: 2%;
+	padding: 10px;	
+	
+
+}
+.title{
+	font-weight: bold;
+	color: white;
+}
+.title:hover{
+	color: rgba(20, 116, 211,1);
+
+}
+.header ul li a{
+	text-align: center;
+	color: rgba(20, 116, 211,1);
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0px;}
+.header ul li a:hover{
+	color: rgba(20, 116, 211,1);
+}
+.tab{
+	padding: 10px;
+}
+.tab:hover{
+	background-color: rgba(255, 255, 255,1);
+	color: rgba(20, 116, 211,1);
+}
+.seatplan{
+	height: 500px;
+	width: 480px;
+}
+.matchdisplay{
+	background-color: rgba(19, 21, 183,0.7);
+	font-weight: bold;
+	color: white;
+	padding: 10px;
+	width: 40%;
+} 
+.upmatchdisplay{
+	background-color: rgba(182, 182, 34,0.7);
+	font-weight: bold;
+	color: white;
+	padding: 10px;
+	width: 40%;
+}
+.banner{
+	background-color: rgba(232, 7, 7,0.7);
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+}
+.timeDisplay
+{
+	font-weight: bold;
+	color: white;
+}
